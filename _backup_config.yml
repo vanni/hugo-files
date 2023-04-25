@@ -1,0 +1,25 @@
+baseURL: ""
+languageCode: en-us
+title: Vanni's Blog
+theme: PaperMod
+
+Params:
+  DateFormat: "2 January, 2006" # This will print the date to our format
+  ShowReadingTime: true
+  ShowWordCount: true
+  ShowShareButtons: true
+  ShareButtons: ["linkedin", "twitter"] # To customize which share buttons to be enabled on page
+menu:
+  main:
+    - identifier: categories
+      name: categories
+      url: /categories/
+      weight: 10
+    - identifier: tags
+      name: tags
+      url: /tags/
+      weight: 20
+    - identifier: archives
+      name: archives
+      url: /archives/
+      weight: 30
